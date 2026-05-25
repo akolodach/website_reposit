@@ -1,4 +1,4 @@
-/* Базові налаштування */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-/* Хедер */
+
 .header {
     background: #fff;
     padding: 20px 0;
@@ -56,7 +56,7 @@ body {
     background: #f9f9f9;
 }
 
-/* Герой-банер */
+
 .hero-section {
     background-color: #f6efe6;
     padding: 60px 0;
@@ -107,14 +107,20 @@ body {
 .btn-purple {
     background-color: #6c5ce7;
     color: #fff;
+    transition: background 0.2s;
 }
+
+.btn-purple:hover {
+    background-color: #481298;
+}
+
 
 .hero-image img {
     max-width: 100%;
     height: auto;
 }
 
-/* Секції "Головне Тіло" */
+
 .section-block {
     background-color: #fbf6ee;
     border-radius: 24px;
@@ -148,7 +154,7 @@ body {
     margin-top: 10px;
 }
 
-/* Картки товарів (Grid) */
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -203,7 +209,7 @@ body {
     color: #ff8a00;
 }
 
-/* Банери всередині секцій */
+
 .banners-twin {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -226,7 +232,7 @@ body {
 .banner-yellow { background-color: #fab1a0; color: #333; }
 .banner-purple-promo { background-color: #a29bfe; }
 
-/* Футер */
+
 .footer {
     background-color: #dbe5ee;
     padding: 5px 0;
@@ -283,13 +289,13 @@ body {
     font-weight: bold;
 }
 
-/* Адаптивність */
+
 @media (max-width: 768px) {
     .hero-container, .banners-twin, .footer-container {
         grid-template-columns: 1fr;
         flex-direction: column;
     }
-    .nav { display: none; } /* Спрощення навігації для мобільних */
+    .nav { display: none; } 
 }
 
 .hero-image{
@@ -299,7 +305,6 @@ body {
   height: auto;
   width: 100%;
   padding-bottom: 36.66%;
-  /* H / W * 100% = 66.67 */
 }
 
 .product-card > img{
@@ -309,4 +314,21 @@ body {
 
 .icons{
 
+}
+
+.btn-action {
+    background-color: #5f27cd;
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.btn-action:hover {
+    background-color: #481298;
 }

@@ -1,4 +1,4 @@
-/* Базове скидання стилів */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-/* Хедер */
+
 .header {
     background: #fff;
     padding: 20px 0;
@@ -56,7 +56,7 @@ body {
     background: #f9f9f9;
 }
 
-/* Герой-банер */
+
 .hero-section {
     background-color: #f6efe6;
     padding: 60px 0;
@@ -114,10 +114,9 @@ body {
     height: auto;
 }
 
-/* Секція профілю з фоновим паттерном */
+
 .profile-hero {
-    /* Можна замінити колір на URL картинки лапок, якщо є безшовний патерн */
-    background-color: #f3e5ca; 
+    background-color: #f3e5ca ; 
     background-image: radial-gradient(#dfccaa 20%, transparent 20%);
     background-size: 30px 30px;
     padding: 40px 0;
@@ -153,7 +152,7 @@ body {
     justify-content: center;
     overflow: hidden;
 }
-}
+
 
 .avatar-placeholder {
     font-size: 45px;
@@ -165,7 +164,7 @@ body {
     color: #333;
 }
 
-/* Секції особистого кабінету */
+
 .section-block {
     background-color: #fbf5eb;
     border-radius: 16px;
@@ -189,7 +188,7 @@ body {
     color: #555;
 }
 
-/* Сітка товарів */
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -256,7 +255,6 @@ body {
     background-color: #481298;
 }
 
-/* Контейнери для промо-банерів */
 .banners-twin {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -279,9 +277,9 @@ body {
 .banner-coral { background-color: #f3a694; color: #333; }
 .banner-lavender { background-color: #a29bfe; color: #333; }
 
-/* Футер */
+
 .footer {
-    background-color: #d1dc8a; /* світлий сіро-блакитний відтінок макета */
+    background-color: #d1dc8a;
     background: linear-gradient(to bottom, #dbe2e9, #ced7df);
     padding: 40px 0;
     margin-top: 50px;
@@ -324,7 +322,7 @@ body {
     text-decoration: underline;
 }
 
-/* Форма в футері */
+
 .footer-form {
     background-color: #fff;
     padding: 20px;
@@ -356,12 +354,12 @@ body {
     cursor: pointer;
 }
 
-/* Адаптивність */
+
 @media (max-width: 768px) {
     .header-container, .banners-twin, .footer-container {
         grid-template-columns: 1fr;
     }
     .nav {
-        display: none; /* приховуємо навігацію на мобільних */
+        display: none; 
     }
 }

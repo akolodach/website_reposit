@@ -1,4 +1,4 @@
-/* Загальні стилі */
+
 body {
     background-color: #f5f5f5;
     font-family: 'Segoe UI', sans-serif;
@@ -14,10 +14,10 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
-/* Шапка з фоном */
+
 .header-pattern {
     background-color: #f2d7bc;
-    background-image: url('img/pattern-bones.png'); /* Твій патерн з кісточками */
+    background-image: url('img/pattern\ 1.png'); 
     padding: 20px 0;
     border-bottom: 2px solid #e0c5aa;
 }
@@ -60,7 +60,7 @@ body {
     cursor: pointer;
 }
 
-/* Контент сторінки товару */
+
 .container2 {
     max-width: 1000px;
     margin: 40px auto;
@@ -76,10 +76,10 @@ body {
     margin-bottom: 40px;
 }
 
-/* Зображення з тінню як розмиття */
+
 .product-image-container {
     flex: 1;
-    background: #ff9e42; /* Помаранчевий фон як на макеті */
+    background: #ff9e42; 
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 0 25px rgba(255, 158, 66, 0.3);
@@ -91,7 +91,7 @@ body {
     display: block;
 }
 
-/* Права колонка */
+
 .product-actions {
     flex: 1;
     display: flex;
@@ -124,7 +124,7 @@ body {
     background-color: #f2d7bc;
 }
 
-/* Опис */
+
 .product-description h2 {
     border-bottom: 2px solid #f2d7bc;
     display: inline-block;
