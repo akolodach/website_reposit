@@ -1,0 +1,252 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fff;
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.search-container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.search-container > input {
+    width: 400px;
+    border: 1px solid #d7ccc8;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.search-container > button {
+    background: #bcaaa4;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+
+
+.header-pattern {
+    background-color: #f2d7bc;
+    background-image: url('img/pattern\ 1.png'); 
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-pattern h1 {
+    background: #f8e5d5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #5d4037;
+    border: 1px solid #e0c5aa;
+}
+
+
+.user-profile {
+    text-align: center;
+    margin-top: -40px; 
+}
+
+.avatar-circle {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #f2d7bc;
+    overflow: hidden;
+}
+
+.user-profile h2 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+.orders-section {
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.orders-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.product-card {
+    background: #fff;
+    border: 2px solid #f2d7bc;
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 15px;
+    background: #eee;
+}
+
+.product-card h4 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.price {
+    color: #8d6e63;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-more {
+    background-color: #d7ccc8;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5d4037;
+}
+
+.btn-more:hover {
+    background-color: #bcaaa4;
+}
+
+.layout_head{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: max-content;
+}
+
+.layout_head > ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+}
+
+li{
+    margin-right: 30px;
+}
+
+.logo,
+.header-icons{
+    width: 44px;
+    height: 44px;
+}
+
+.search-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.search_cont,
+.search-btn{
+    border: 2px solid #b86b1c; 
+    overflow: hidden;
+}
+
+.search_cont{
+    width: 635px;
+    height: 40px;
+    background-color: #FFF6F1;
+}
+
+.search-btn{
+    width: 90px;
+    height: 45px;
+    background-color: #BA6A1D;
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    outline: none;
+    color: #FFF6F1;
+}
+
+.header-pattern {
+    background-color: #f2d7bc;
+    background-image: url('img/pattern\ 1.png');
+    min-height: 200px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header {
+    width: 100%; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.header-pattern h1 {
+    background: #f8e5d5;
+    border-radius: 15px;
+    margin-top: auto; 
+    margin-bottom: 20px;
+    font-size: 28px;
+    border: 1px solid #e0c5aa;
+}
+
+.header{
+    width: 1440px;
+    height: 30px;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+}
+
+
